@@ -25,3 +25,11 @@ C:\Users\Kacper\Desktop\Programowanie współbieżne\Projekt\PrzychodniaLekarska
 C:\Users\Kacper\Desktop\Programowanie współbieżne\Projekt\PrzychodniaLekarska\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.csprojResolveAssemblyReference.cache
 C:\Users\Kacper\Desktop\Programowanie współbieżne\Projekt\PrzychodniaLekarska\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.Properties.Resources.resources
 C:\Users\Kacper\Desktop\Programowanie współbieżne\Projekt\PrzychodniaLekarska\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.csproj.GenerateResource.Cache
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\bin\Debug\PrzychodniaLekarska.exe.config
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.exe
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.pdb
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.csprojResolveAssemblyReference.cache
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.Properties.Resources.resources
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.csproj.GenerateResource.Cache
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\bin\Debug\PrzychodniaLekarska.exe
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\bin\Debug\PrzychodniaLekarska.pdb
