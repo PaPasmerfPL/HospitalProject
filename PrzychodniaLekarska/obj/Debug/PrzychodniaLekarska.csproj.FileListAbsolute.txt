@@ -33,3 +33,4 @@ D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekars
 D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.csproj.GenerateResource.Cache
 D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\bin\Debug\PrzychodniaLekarska.exe
 D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\bin\Debug\PrzychodniaLekarska.pdb
+D:\Daria Projekt\HospitalProject\PrzychodniaLekarska\obj\Debug\PrzychodniaLekarska.Form0.resources

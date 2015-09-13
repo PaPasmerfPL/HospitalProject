@@ -92,7 +92,7 @@ namespace PrzychodniaLekarska
             foreach (Pacjent p in this.kolejkaPacjentow)
             {
                 p.koordynaty.X = this.punktKolejki.X;
-                p.koordynaty.Y = this.punktKolejki.Y + 20 * i;
+                p.koordynaty.Y = this.punktKolejki.Y + 27* i;
                 i++;
             }
         }
@@ -100,7 +100,7 @@ namespace PrzychodniaLekarska
         private void wyjdzZPrzychodni(Pacjent obslugiwanyPacjent)
         {
             
-            while (!obslugiwanyPacjent.Idz(1230, 400))
+            while (!obslugiwanyPacjent.Idz(1110, 800))
             {
                 Thread.Sleep(okno.sleepVal);
                 okno.Invalidate();

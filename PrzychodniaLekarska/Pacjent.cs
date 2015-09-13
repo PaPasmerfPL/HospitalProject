@@ -118,7 +118,7 @@ namespace PrzychodniaLekarska
 
         public void Rysuj(Graphics g)
         {
-                g.FillEllipse(this.kolor, new RectangleF(koordynaty.X, koordynaty.Y, wielkosc, wielkosc));
+                g.FillRectangle(this.kolor, new RectangleF(koordynaty.X, koordynaty.Y, wielkosc, wielkosc));
         }
 
 

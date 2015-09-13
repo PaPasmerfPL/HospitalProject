@@ -19,6 +19,7 @@ namespace PrzychodniaLekarska
         public List<Lekarz> lekarze = new List<Lekarz>();
 
         public int sleepVal = 20;
+        int LICZBA_LEKARZY;
         /*
         Lekarz lekarz1;
         Lekarz lekarz2;
@@ -26,19 +27,19 @@ namespace PrzychodniaLekarska
         Lekarz lekarz4;*/
 
 
-        public Form1()
+        public Form1(int a)
         {
             InitializeComponent();
-            int LICZBA_LEKARZY = 3;
-            int k = 240;
+            LICZBA_LEKARZY = a;
+            int k = 120;
 
             for (int i = 0; i < LICZBA_LEKARZY; i++)
             {
                 
-                Lekarz lekarz = new Lekarz(this, new Point(k, 180), new Point(k, 90));
+                Lekarz lekarz = new Lekarz(this, new Point(k, 270), new Point(k, 90));
                 lekarz.praca = new Thread(new ThreadStart(lekarz.Pracuj));
                 lekarze.Add(lekarz);
-                k = k + 300;
+                k = k + 240;
             }
             for (int i = 0; i < LICZBA_LEKARZY; i++)
             {
@@ -284,8 +285,20 @@ namespace PrzychodniaLekarska
 
             Graphics g = e.Graphics;
             // tutaj podaj sobie sciezka zeby pasowala, nie pamietam jak sie robilo z poziomu aplikacji
-            g.DrawImage(Image.FromFile(@"C:\Users\Kacper\Desktop\Programowanie współbieżne\Projekt\PrzychodniaLekarska\tlo.jpg"), 0, 0);
-
+            if (LICZBA_LEKARZY == 2)
+            {
+                g.DrawImage(Image.FromFile(@"D:\Daria Projekt\HospitalProject\tlo2a.jpg"), 0, 0);
+            }
+            else if (LICZBA_LEKARZY == 3)
+            {
+                g.DrawImage(Image.FromFile(@"D:\Daria Projekt\HospitalProject\tlo3a.jpg"), 0, 0);
+            }else if(LICZBA_LEKARZY == 4)
+            {
+                g.DrawImage(Image.FromFile(@"D:\Daria Projekt\HospitalProject\tlo4a.jpg"), 0, 0);
+            }else if (LICZBA_LEKARZY == 5)
+            {
+                g.DrawImage(Image.FromFile(@"D:\Daria Projekt\HospitalProject\tlo5a.jpg"), 0, 0);
+            }
             this.dostepGrafikaSemaphore.WaitOne();
             foreach (Pacjent a in wszyscyPacjenci)
             {
